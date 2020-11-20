@@ -1,13 +1,43 @@
- #2196f3
- #000000
- #757575
- #F5F4FA
- #EEEEEE
- #212121
- #FFFFFF
- #2F303A
- #E5E5E5
- #ECECEC
+:root {
+  --acent-color: #2196f3;
+  --color: #000000;
+  --color: #757575;
+  --color: #f5f4fa;
+  --color: #eeeeee;
+  --color: #212121;
+  --color: #ffffff;
+  --color: #2f303a;
+  --color: #e5e5e5;
+  --color: #ececec;
 
- /*Roboto 400 500 700 900
- Raleway 700
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Ralewey", sans-serif;
+}
+
+/*BODY*/
+a {
+  text-decoration: none;
+}
+
+/*BODY*/
+
+/*HEADER*/
+.logo {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.logo-web {
+  color: var(--acent-color);
+}
+
+/*HEADER*/
+
+/*MAIN*/
+
+/*MAIN*/
+
+/*FOOTER*/
+
+/*FOOTER*/
