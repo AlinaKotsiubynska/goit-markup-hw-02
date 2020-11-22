@@ -5,8 +5,8 @@
   --color: #f5f4fa;
   --color: #eeeeee;
   --nav-link-color: #212121;
-  --color: #ffffff;
-  --color: #2f303a;
+  --white-color: #ffffff;
+  --backgroud-greay-color: #2f303a;
   --color: #e5e5e5;
   --color: #ececec;
 
@@ -67,6 +67,18 @@ ul {
 /*HEADER*/
 
 /*MAIN*/
+
+/*HERO*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: var(--backgroud-greay-color);
+}
 
 /*MAIN*/
 
