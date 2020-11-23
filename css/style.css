@@ -6,6 +6,7 @@
   --white-color: #ffffff;
   --backgroud-greay-color: #2f303a;
   --footer-address-color: rgba(255, 255, 255, 0.6);
+  --button-background: #f5f4fa;
 
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
@@ -86,10 +87,10 @@ p {
   background-color: var(--backgroud-greay-color);
 }
 
-.button {
+.button-studio-hero {
   width: 200px;
   height: 50px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -97,12 +98,12 @@ p {
   text-align: center;
   color: var(--white-color);
   background-color: var(--acent-color);
-  display: flex;
-  align-items: center;
   text-decoration: none;
   letter-spacing: 0.06em;
+  /* display: flex;
+  align-items: center;
   justify-content: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
 }
 
 .visually-hidden {
@@ -167,7 +168,39 @@ p {
 /*TEAM*/
 
 /*PORTFOLIO*/
+.portfolio-btn {
+  /* position: absolute; */
+  background: var(--button-background);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  /* display: flex; */
+}
 
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-color);
+  background-color: var(--acent-color);
+}
+
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.02em;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-item-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+}
 /*PORTFOLIO*/
 
 /*FOOTER*/
