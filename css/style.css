@@ -66,12 +66,13 @@ p {
 
 .header-address-item {
   color: var(--main-color);
-  /* font-style: normal; */
+}
+
+.curent {
+  color: var(--acent-color);
 }
 
 /*HEADER*/
-
-/*MAIN*/
 
 /*HERO*/
 .hero-title {
@@ -165,7 +166,9 @@ p {
 }
 /*TEAM*/
 
-/*MAIN*/
+/*PORTFOLIO*/
+
+/*PORTFOLIO*/
 
 /*FOOTER*/
 .footer {
