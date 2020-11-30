@@ -14,12 +14,12 @@
 }
 
 /*BODY*/
-.link {
+a {
   text-decoration: none;
   font-style: normal;
 }
 
-.list {
+ul {
   list-style: none;
 }
 
